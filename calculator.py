@@ -15,7 +15,6 @@ def evaluate_calculation():
     except:
         clear_field()
         text_result.insert(1.0,"Error")
-
 def clear_field():
     global calculation
     calculation=""
@@ -61,3 +60,5 @@ btn_equals.grid(row=6,column=3,columnspan=2)
 btn_clear=tk.Button(root,text="C",command=clear_field,width=11,font=('Arial',14))
 btn_clear.grid(row=6,column=1,columnspan=2)
 root.mainloop()
+import strings
+
